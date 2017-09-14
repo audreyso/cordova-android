@@ -4,8 +4,6 @@
  *  @param {String} root Root folder of the project
  */
 
-/* jshint esnext: false */
-
 var path = require('path');
 var fs = require('fs');
 var CordovaError = require('cordova-common').CordovaError;

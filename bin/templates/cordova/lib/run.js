@@ -18,9 +18,6 @@
        specific language governing permissions and limitations
        under the License.
 */
-
-/* jshint loopfunc:true */
-
 var path = require('path');
 var build = require('./build');
 var emulator = require('./emulator');

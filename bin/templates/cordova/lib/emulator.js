@@ -19,8 +19,6 @@
        under the License.
 */
 
-/* jshint sub:true */
-
 var retry = require('./retry');
 var build = require('./build');
 var path = require('path');

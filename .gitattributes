@@ -44,9 +44,7 @@
 .gitconfig text
 
 # code analysis config
-.jshintrc text
 .jscsrc text
-.jshintignore text
 .csslintrc text
 
 # misc config

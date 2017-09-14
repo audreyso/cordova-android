@@ -43,7 +43,6 @@ tmp/**/*
 **/.idea/**/*
 *.iml
 npm-debug.log
-node_modules/jshint
 node_modules/promise-matchers
 node_modules/jasmine
 node_modules/rewire
@@ -58,7 +57,6 @@ node_modules/.bin/handlebars
 node_modules/.bin/istanbul
 node_modules/.bin/jasmine
 node_modules/.bin/js-yaml
-node_modules/.bin/jshint
 node_modules/.bin/mkdirp
 node_modules/.bin/r.js
 node_modules/.bin/r_js

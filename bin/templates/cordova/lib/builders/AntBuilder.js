@@ -61,9 +61,7 @@ AntBuilder.prototype.prepEnv = function (opts) {
         // Copy in build.xml on each build so that:
         // A) we don't require the Android SDK at project creation time, and
         // B) we always use the SDK's latest version of it.
-        /* jshint -W069 */
         var sdkDir = process.env['ANDROID_HOME'];
-        /* jshint +W069 */
         var buildTemplate = fs.readFileSync(path.join(sdkDir, 'tools', 'lib', 'build.template'), 'utf8');
         function writeBuildXml (projectPath) {
             var newData = buildTemplate.replace('PROJECT_NAME', self.extractRealProjectNameFromManifest());
